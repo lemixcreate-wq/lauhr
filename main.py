@@ -256,7 +256,7 @@ def send_to_remote_server(payload):
 def main_cli_automation():
     fetcher = SheinCliFetcher()
 
-    MAX_WORKERS = 30 
+    MAX_WORKERS = 15 
     BATCH_SIZE = 1500
 
     total_checked = 0
